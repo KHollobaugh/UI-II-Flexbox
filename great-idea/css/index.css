@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5 {
 	margin: 10px 0px;
 	padding: 5px;
 	background-color: white;
-	z-index: 100;
 	display: flex;
 	justify-content: space-between;
 }
@@ -101,9 +100,14 @@ h1, h2, h3, h4, h5 {
 .box {
 	display: flex;
 	border: 2px solid black;
-	padding: 10px;
-	height: 200px;
+	padding: 25px;
+	height: 250px;
 	width: 400px;
+	flex-wrap: wrap;
+	margin: 30px 0px;
+	background: lightgray;
+	flex-direction: column;
+	justify-content: space-around;
 
 }
 
@@ -111,33 +115,44 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-
+	margin: 30px 0px;
 }
 
-.text-boxes h3 {
-
-}
-
-.text-boxes p {
-
-}
-
-.text-boxes .button {
-
+.button {
+	border: 1px solid black;
+	background: white;
+	border-radius: 10%;
+	font-size: 13px;
+	width: 100px;
+	height: 30px;
+	padding: 5px;
+	text-align: center;
 }
 
 .bottom-section {
-
+	display: flex;
+	padding: 50px 0px;
+	border-top: 2px solid black;
+	justify-content: space-between;
 }
 
 .bottom-text {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
 
 }
 
-.bottom-text ul {
+ul {
+	list-style-type: square;
+	padding: 30px;
+}
 
+li {
+	margin: 20px 0px;
 }
 
 footer {
-
+text-align: center;
+margin-bottom: 30px;
 }
