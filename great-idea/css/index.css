@@ -267,6 +267,87 @@ header {
   /* ABOUT CSS */
 
   .corporate-group-pic {
-	  display: flex;
+		display: flex;
+		align-self: center;
+		max-height: 350px;
+		max-width: auto;
+		border-radius: 50%;
 
   }
+
+  .about-us {
+		display: flex;
+		justify-content: space-between;
+		padding: 50px 0px;
+  }
+
+  .about-us h1 {
+	  font-size: 35px;
+  }
+
+  .about-us .about-text {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		width: 40%;
+		height: auto;
+	  
+	}
+
+	.staff {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 50px 0px;
+		border-top: 2px solid gray;
+	}
+	
+	.employee {
+		display: flex;
+		width: 45%;
+		padding: 30px 40px;
+		border: 1px solid gray;
+		margin: 20px 0px;
+		justify-content: space-between;
+		background: #f4f3f4;
+	}
+
+	.employee .title-name {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.employee-photo {
+		display: flex;
+		height: 150px;
+		width: auto;
+		overflow: hidden;
+		border-radius: 50%
+	}
+
+	.employment-advertisement {
+		border-bottom: 2px solid gray;
+		padding: 20px;
+		margin: 20px;
+	}
+	.employment-advertisement h2 a {
+
+	
+		text-decoration: none;
+		color: white;
+		background-color: turquoise;
+		border-radius: 10%;
+		padding: 10px 30px;
+		font-size: 20px;
+	}
+
+	.employment-advertisement h2 {
+		display: flex;
+		justify-content: center;
+		width: 200px;
+	}
+
+
+	
